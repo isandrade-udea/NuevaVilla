@@ -454,10 +454,7 @@ st.subheader('Modelo de Machine Learning')
 
 #decision tree
 st.write('##### RandomForestRegressor')
-st.write('El modelo de Random Forest Regressor es un modelo supervisado que utiliza un conjunto de árboles de 
-decisión para realizar predicciones continuas. Este método combina múltiples árboles de decisión,
-donde cada uno se entrena con un subconjunto diferente de datos y características,
-y luego promedia las predicciones para obtener un resultado final más robusto y preciso')
+st.write('El modelo de Random Forest Regressor es un modelo supervisado que utiliza un conjunto de árboles de decisión para realizar predicciones continuas. Este método combina múltiples árboles de decisión,donde cada uno se entrena con un subconjunto diferente de datos y características,y luego promedia las predicciones para obtener un resultado final más robusto y preciso')
 
 col1, col2, col3 = st.columns(3)
 with col1:

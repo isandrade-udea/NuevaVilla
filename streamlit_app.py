@@ -35,7 +35,7 @@ combined_palette = cootracovi_palette + custom_yellow_vibrant
 # Usar esta paleta combinada en un gráfico
 sns.set_palette(combined_palette)
 
-st.title(":oncoming_bus: Nueva Villa ")
+st.title(":tram: Nueva Villa ")
 st.write(
     "modelos predictivo de los parametros de las rutas: 080, 081, 082 A y 082 B, del barrio Villa Hermosa"
 )

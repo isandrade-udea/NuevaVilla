@@ -489,14 +489,14 @@ with col1:
                                 max_features = 'sqrt',
                                 max_depth= 12
                                 )
-    model2 = GradientBoostingRegressor(
-                                        loss='absolute_error',
-                                        max_depth= 4,
-                                        learning_rate = 0.12,
-                                        random_state=42
-                                        )
+    #model2 = GradientBoostingRegressor(
+                                        # loss='absolute_error',
+                                        # max_depth= 4,
+                                        # learning_rate = 0.12,
+                                        # random_state=42
+                                        # )
 
-    model3 = XGBRegressor(objective='reg:absoluteerror', random_state=42)
+    #model3 = XGBRegressor(objective='reg:absoluteerror', random_state=42)
 
     model = model1
 
